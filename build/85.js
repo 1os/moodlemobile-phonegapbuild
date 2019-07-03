@@ -1,6 +1,6 @@
 webpackJsonp([85],{
 
-/***/ 1926:
+/***/ 1925:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -183,7 +183,7 @@ var bs_tooltip_ngfactory = __webpack_require__(1405);
 var unsupported_module_ngfactory = __webpack_require__(1406);
 
 // EXTERNAL MODULE: ./src/addon/mod/quiz/components/index/index.ngfactory.js
-var index_ngfactory = __webpack_require__(1462);
+var index_ngfactory = __webpack_require__(1461);
 
 // EXTERNAL MODULE: ./src/addon/mod/quiz/components/connection-error/connection-error.ngfactory.js
 var connection_error_ngfactory = __webpack_require__(1484);

@@ -1,6 +1,6 @@
 webpackJsonp([94],{
 
-/***/ 1918:
+/***/ 1917:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -171,7 +171,7 @@ var bs_tooltip_ngfactory = __webpack_require__(1405);
 var unsupported_module_ngfactory = __webpack_require__(1406);
 
 // EXTERNAL MODULE: ./src/addon/mod/glossary/components/index/index.ngfactory.js
-var index_ngfactory = __webpack_require__(1457);
+var index_ngfactory = __webpack_require__(1456);
 
 // EXTERNAL MODULE: ./src/addon/mod/glossary/components/mode-picker/mode-picker.ngfactory.js
 var mode_picker_ngfactory = __webpack_require__(1482);
