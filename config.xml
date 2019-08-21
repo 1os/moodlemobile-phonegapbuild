@@ -3,9 +3,9 @@
         xmlns:gap="http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="com.learnersplatform.mobile"
-        versionCode="37300"
-        android-versionCode="37300"
-        version="3.7.3">
+        versionCode="37400"
+        android-versionCode="37400"
+        version="3.7.4">
     <name>LPMobile</name>
 
     <description>
@@ -19,7 +19,7 @@
     <content src="index.html"/>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
-        <string>3.7.3</string>
+        <string>3.7.4</string>
     </edit-config>
 
     <gap:platform name="ios"/>
@@ -41,7 +41,7 @@
     <allow-intent href="mailto:*"/>
     <allow-intent href="geo:*"/>
 
-    <preference name="phonegap-version" value="cli-8.1.1"/>
+    <preference name="phonegap-version" value="cli-9.0.0"/>
     <preference name="LoadUrlTimeoutValue" value="60000"/>
     <preference name="orientation" value="default"/>
     <preference name="target-device" value="universal"/>
