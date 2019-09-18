@@ -1,6 +1,6 @@
 webpackJsonp([18],{
 
-/***/ 1995:
+/***/ 1976:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -312,7 +312,7 @@ var item_divider = __webpack_require__(114);
 var common = __webpack_require__(7);
 
 // EXTERNAL MODULE: ./src/core/user/components/user-profile-field/user-profile-field.ngfactory.js
-var user_profile_field_ngfactory = __webpack_require__(2034);
+var user_profile_field_ngfactory = __webpack_require__(2030);
 
 // EXTERNAL MODULE: ./src/core/user/components/user-profile-field/user-profile-field.ts
 var user_profile_field = __webpack_require__(1427);
@@ -545,7 +545,7 @@ var CoreUserAboutPageModuleNgFactory = core["_28" /* ɵcmf */](about_module_Core
 
 /***/ }),
 
-/***/ 2034:
+/***/ 2030:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
