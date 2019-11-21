@@ -166,7 +166,6 @@
         <splash height="2436" src="resources/ios/splash/Default-2436h.png" width="1125" />
         <splash height="1125" src="resources/ios/splash/Default-Landscape-2436h.png" width="2436" />
     </platform>
-    <platform name="windows" />
 
     <gap:plugin name="com-darryncampbell-cordova-plugin-intent" source="npm" spec="^1.1.7"/>
     <gap:plugin name="cordova-android-support-gradle-release" source="npm" spec="^3.0.0">
