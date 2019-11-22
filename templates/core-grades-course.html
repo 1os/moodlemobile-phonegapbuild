@@ -2,7 +2,7 @@
     <ion-refresher [enabled]="gradesLoaded" (ionRefresh)="refreshGrades($event)">
         <ion-refresher-content pullingText="{{ 'core.pulltorefresh' | translate }}"></ion-refresher-content>
     </ion-refresher>
-    <core-loading [hideUntil]="gradesLoaded">
+    <core-loading [hideUntil]="gradesLoaded" class="safe-area-page">
         <core-empty-box *ngIf="!gradesTable" icon="stats" [message]="'core.grades.nogradesreturned' | translate">
         </core-empty-box>
 
