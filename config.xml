@@ -199,8 +199,6 @@
                 version="https://github.com/moodlemobile/Cordova-sqlite-storage.git#moodle-phonegapbuild-3.4.0"/>
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" spec="^1.0.1"/>
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.3.0"/>
-    <gap:plugin name="cordova-plugin-androidx" source="npm" spec="^1.0.2"/>
-    <gap:plugin name="cordova-plugin-androidx-adapter" source="npm" spec="^1.1.0"/>
 
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:launchMode='singleTop']"
                  mode="merge">
