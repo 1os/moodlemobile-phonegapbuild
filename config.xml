@@ -203,14 +203,17 @@
     <gap:plugin name="cordova-plugin-androidx" source="npm" spec="^1.0.2"/>
     <gap:plugin name="cordova-plugin-androidx-adapter" source="npm" spec="^1.1.0"/>
 
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest">
+        <manifest xmlns:tools="http://schemas.android.com/tools" />
+    </edit-config>
+    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:usesCleartextTraffic="true" tools:replace="android:appComponentFactory"/>
+    </edit-config>
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:launchMode='singleTop']"
                  mode="merge">
         <activity
                 android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize"
                 android:name="MainActivity"/>
-    </edit-config>
-    <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
-        <application android:usesCleartextTraffic="true" tools:replace="android:appComponentFactory"/>
     </edit-config>
 
     <!-- See MOBILE-892 -->
