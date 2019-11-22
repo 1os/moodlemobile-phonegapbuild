@@ -207,7 +207,9 @@
         <manifest xmlns:tools="http://schemas.android.com/tools" />
     </edit-config>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
-        <application android:usesCleartextTraffic="true" tools:replace="android:appComponentFactory"/>
+        <application android:usesCleartextTraffic="true"
+                     tools:replace="android:appComponentFactory"
+                     android:appComponentFactory="androidx"/>
     </edit-config>
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:launchMode='singleTop']"
                  mode="merge">
