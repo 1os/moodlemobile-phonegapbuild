@@ -169,9 +169,6 @@
     </platform>
 
     <gap:plugin name="com-darryncampbell-cordova-plugin-intent" source="npm" spec="^1.1.8"/>
-    <gap:plugin name="cordova-android-support-gradle-release" source="npm" spec="^3.0.1">
-        <param name="ANDROID_SUPPORT_VERSION" value="28.0.0"/>
-    </gap:plugin>
     <gap:plugin name="cordova-clipboard" source="npm" spec="^1.3.0"/>
     <gap:plugin name="cordova-plugin-badge" source="npm" spec="^0.8.8"/>
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="^4.1.0"/>
@@ -203,7 +200,7 @@
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" spec="^1.0.1"/>
     <gap:plugin name="phonegap-plugin-push" source="git"
                 version="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3">
-        <variable name="ANDROID_SUPPORT_V13_VERSION" value="28.+"/>
+        <variable name="ANDROID_SUPPORT_V13_VERSION" value="28.0.0"/>
         <variable name="FCM_VERSION" value="17.5.+"/>
     </gap:plugin>
     <gap:plugin name="cordova-plugin-androidx" source="npm" spec="^1.0.2"/>
@@ -213,7 +210,7 @@
                  mode="merge">
         <activity
                 android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize"
-                android:name="MainActivity"></activity>
+                android:name="MainActivity"/>
     </edit-config>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
         <application android:usesCleartextTraffic="true"/>
