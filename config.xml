@@ -2,6 +2,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:gap="http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         id="com.learnersplatform.mobile"
         versionCode="38000"
         android-versionCode="38000"
@@ -199,6 +200,8 @@
                 version="https://github.com/moodlemobile/Cordova-sqlite-storage.git#moodle-phonegapbuild-3.4.0"/>
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" spec="^1.0.1"/>
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.3.0"/>
+    <gap:plugin name="cordova-plugin-androidx" source="npm" spec="^1.0.2"/>
+    <gap:plugin name="cordova-plugin-androidx-adapter" source="npm" spec="^1.1.0"/>
 
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:launchMode='singleTop']"
                  mode="merge">
@@ -207,7 +210,7 @@
                 android:name="MainActivity"/>
     </edit-config>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
-        <application android:usesCleartextTraffic="true"/>
+        <application android:usesCleartextTraffic="true" tools:replace="android:appComponentFactory"/>
     </edit-config>
 
     <!-- See MOBILE-892 -->
