@@ -1,6 +1,6 @@
 webpackJsonp([28],{
 
-/***/ 2109:
+/***/ 1979:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10,13 +10,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var core = __webpack_require__(0);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
-var ionic_angular = __webpack_require__(5);
+var ionic_angular = __webpack_require__(8);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/index.js + 1 modules
 var _ngx_translate_core = __webpack_require__(3);
 
 // CONCATENATED MODULE: ./src/core/viewer/pages/image/image.ts
-// (C) Copyright 2015 Moodle Pty Ltd.
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -63,17 +63,17 @@ var image_CoreViewerImagePage = /** @class */ (function () {
             selector: 'page-core-viewer-image',
             templateUrl: 'image.html',
         }),
-        __metadata("design:paramtypes", [ionic_angular["G" /* ViewController */], ionic_angular["t" /* NavParams */], _ngx_translate_core["c" /* TranslateService */]])
+        __metadata("design:paramtypes", [ionic_angular["E" /* ViewController */], ionic_angular["t" /* NavParams */], _ngx_translate_core["c" /* TranslateService */]])
     ], CoreViewerImagePage);
     return CoreViewerImagePage;
 }());
 
 //# sourceMappingURL=image.js.map
 // EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
-var directives_module = __webpack_require__(31);
+var directives_module = __webpack_require__(29);
 
 // CONCATENATED MODULE: ./src/core/viewer/pages/image/image.module.ts
-// (C) Copyright 2015 Moodle Pty Ltd.
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -117,103 +117,103 @@ var image_module_CoreViewerImagePageModule = /** @class */ (function () {
 
 //# sourceMappingURL=image.module.js.map
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
-var action_sheet_component_ngfactory = __webpack_require__(1513);
+var action_sheet_component_ngfactory = __webpack_require__(1391);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
-var alert_component_ngfactory = __webpack_require__(1514);
+var alert_component_ngfactory = __webpack_require__(1392);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
-var app_root_ngfactory = __webpack_require__(1515);
+var app_root_ngfactory = __webpack_require__(1393);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
-var loading_component_ngfactory = __webpack_require__(1516);
+var loading_component_ngfactory = __webpack_require__(1394);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
-var modal_component_ngfactory = __webpack_require__(1517);
+var modal_component_ngfactory = __webpack_require__(1395);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
-var picker_component_ngfactory = __webpack_require__(1518);
+var picker_component_ngfactory = __webpack_require__(1396);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
-var popover_component_ngfactory = __webpack_require__(1519);
+var popover_component_ngfactory = __webpack_require__(1397);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
-var select_popover_component_ngfactory = __webpack_require__(1520);
+var select_popover_component_ngfactory = __webpack_require__(1398);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
-var toast_component_ngfactory = __webpack_require__(1521);
+var toast_component_ngfactory = __webpack_require__(1399);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
-var toolbar_header = __webpack_require__(372);
+var toolbar_header = __webpack_require__(455);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
-var config = __webpack_require__(7);
+var config = __webpack_require__(6);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
-var view_controller = __webpack_require__(39);
+var view_controller = __webpack_require__(38);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
-var navbar_ngfactory = __webpack_require__(719);
+var navbar_ngfactory = __webpack_require__(1400);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
-var navbar = __webpack_require__(214);
+var navbar = __webpack_require__(211);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
-var app = __webpack_require__(35);
+var app = __webpack_require__(33);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
 var nav_controller = __webpack_require__(21);
 
 // EXTERNAL MODULE: ./src/directives/back-button.ts
-var back_button = __webpack_require__(477);
+var back_button = __webpack_require__(687);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
-var platform = __webpack_require__(16);
+var platform = __webpack_require__(14);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
-var translate_service = __webpack_require__(17);
+var translate_service = __webpack_require__(18);
 
 // EXTERNAL MODULE: ./src/providers/events.ts
-var events = __webpack_require__(10);
+var events = __webpack_require__(11);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
-var toolbar_title_ngfactory = __webpack_require__(720);
+var toolbar_title_ngfactory = __webpack_require__(1401);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
-var toolbar_title = __webpack_require__(314);
+var toolbar_title = __webpack_require__(352);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
-var toolbar = __webpack_require__(248);
+var toolbar = __webpack_require__(259);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-item.js
-var toolbar_item = __webpack_require__(373);
+var toolbar_item = __webpack_require__(456);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.ngfactory.js
-var button_ngfactory = __webpack_require__(46);
+var button_ngfactory = __webpack_require__(45);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.js
 var button_button = __webpack_require__(41);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
-var translate_pipe = __webpack_require__(24);
+var translate_pipe = __webpack_require__(27);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/icon/icon.js
-var icon = __webpack_require__(47);
+var icon = __webpack_require__(46);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
-var content_ngfactory = __webpack_require__(183);
+var content_ngfactory = __webpack_require__(185);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
-var content = __webpack_require__(28);
+var content = __webpack_require__(26);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
-var dom_controller = __webpack_require__(34);
+var dom_controller = __webpack_require__(31);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
-var keyboard = __webpack_require__(107);
+var keyboard = __webpack_require__(106);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/scroll/scroll.js
-var scroll_scroll = __webpack_require__(745);
+var scroll_scroll = __webpack_require__(708);
 
 // CONCATENATED MODULE: ./node_modules/ionic-angular/components/scroll/scroll.ngfactory.js
 /**
@@ -233,13 +233,13 @@ var ScrollNgFactory = core["_27" /* ɵccf */]("ion-scroll", scroll_scroll["a" /*
 
 //# sourceMappingURL=scroll.ngfactory.js.map
 // EXTERNAL MODULE: ./src/directives/external-content.ts
-var external_content = __webpack_require__(227);
+var external_content = __webpack_require__(236);
 
 // EXTERNAL MODULE: ./src/providers/logger.ts
-var logger = __webpack_require__(6);
+var logger = __webpack_require__(5);
 
 // EXTERNAL MODULE: ./src/providers/filepool.ts
-var filepool = __webpack_require__(18);
+var filepool = __webpack_require__(17);
 
 // EXTERNAL MODULE: ./src/providers/sites.ts
 var sites = __webpack_require__(1);
@@ -248,7 +248,7 @@ var sites = __webpack_require__(1);
 var dom = __webpack_require__(4);
 
 // EXTERNAL MODULE: ./src/providers/utils/url.ts
-var url = __webpack_require__(25);
+var url = __webpack_require__(23);
 
 // EXTERNAL MODULE: ./src/providers/app.ts
 var providers_app = __webpack_require__(9);
@@ -257,7 +257,7 @@ var providers_app = __webpack_require__(9);
 var utils = __webpack_require__(2);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-params.js
-var nav_params = __webpack_require__(70);
+var nav_params = __webpack_require__(69);
 
 // CONCATENATED MODULE: ./src/core/viewer/pages/image/image.ngfactory.js
 /**
@@ -314,31 +314,31 @@ var CoreViewerImagePageNgFactory = core["_27" /* ɵccf */]("page-core-viewer-ima
 
 //# sourceMappingURL=image.ngfactory.js.map
 // EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
-var common = __webpack_require__(8);
+var common = __webpack_require__(7);
 
 // EXTERNAL MODULE: ./node_modules/@angular/forms/esm5/forms.js
 var esm5_forms = __webpack_require__(22);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
-var translate_loader = __webpack_require__(368);
+var translate_loader = __webpack_require__(348);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
-var translate_compiler = __webpack_require__(369);
+var translate_compiler = __webpack_require__(349);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
-var translate_parser = __webpack_require__(371);
+var translate_parser = __webpack_require__(351);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
-var missing_translation_handler = __webpack_require__(370);
+var missing_translation_handler = __webpack_require__(350);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
-var translate_store = __webpack_require__(476);
+var translate_store = __webpack_require__(454);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
-var ionic_angular_module = __webpack_require__(718);
+var ionic_angular_module = __webpack_require__(686);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
-var module_loader = __webpack_require__(273);
+var module_loader = __webpack_require__(260);
 
 // CONCATENATED MODULE: ./src/core/viewer/pages/image/image.module.ngfactory.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreViewerImagePageModuleNgFactory", function() { return CoreViewerImagePageModuleNgFactory; });
@@ -373,7 +373,7 @@ var module_loader = __webpack_require__(273);
 
 
 
-var CoreViewerImagePageModuleNgFactory = core["_28" /* ɵcmf */](image_module_CoreViewerImagePageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], CoreViewerImagePageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["w" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, image_module_CoreViewerImagePageModule, image_module_CoreViewerImagePageModule, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], image_CoreViewerImagePage, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, [])]); });
+var CoreViewerImagePageModuleNgFactory = core["_28" /* ɵcmf */](image_module_CoreViewerImagePageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], CoreViewerImagePageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["v" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, image_module_CoreViewerImagePageModule, image_module_CoreViewerImagePageModule, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], image_CoreViewerImagePage, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, [])]); });
 
 //# sourceMappingURL=image.module.ngfactory.js.map
 

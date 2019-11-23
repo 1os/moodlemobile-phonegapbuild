@@ -1,6 +1,6 @@
 webpackJsonp([3],{
 
-/***/ 2020:
+/***/ 1895:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10,28 +10,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var core = __webpack_require__(0);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/index.js + 3 modules
-var ionic_angular = __webpack_require__(5);
+var ionic_angular = __webpack_require__(8);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/index.js + 1 modules
 var _ngx_translate_core = __webpack_require__(3);
 
 // EXTERNAL MODULE: ./src/providers/events.ts
-var events = __webpack_require__(10);
+var events = __webpack_require__(11);
 
 // EXTERNAL MODULE: ./src/providers/sites.ts
 var sites = __webpack_require__(1);
 
 // EXTERNAL MODULE: ./src/addon/messages/providers/messages.ts
-var messages = __webpack_require__(159);
+var messages = __webpack_require__(148);
 
 // EXTERNAL MODULE: ./src/components/split-view/split-view.ts
-var split_view = __webpack_require__(29);
+var split_view = __webpack_require__(34);
 
 // EXTERNAL MODULE: ./src/components/tabs/tabs.ts
-var tabs = __webpack_require__(201);
+var tabs = __webpack_require__(165);
 
 // CONCATENATED MODULE: ./src/addon/messages/pages/contacts/contacts.ts
-// (C) Copyright 2015 Moodle Pty Ltd.
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -110,9 +110,9 @@ var contacts_AddonMessagesContactsPage = /** @class */ (function () {
     /**
      * Set the selected user and open the conversation in the split view if needed.
      *
-     * @param tab Active tab: "contacts" or "requests".
-     * @param userId Id of the selected user, undefined to use the last selected user in the tab.
-     * @param onInit Whether the contact was selected on initial load.
+     * @param {string} tab Active tab: "contacts" or "requests".
+     * @param {number} [userId] Id of the selected user, undefined to use the last selected user in the tab.
+     * @param {boolean} [onInit=false] Whether the contact was selected on initial load.
      */
     AddonMessagesContactsPage.prototype.selectUser = function (tab, userId, onInit) {
         if (onInit === void 0) { onInit = false; }
@@ -156,19 +156,19 @@ var contacts_AddonMessagesContactsPage = /** @class */ (function () {
 
 //# sourceMappingURL=contacts.js.map
 // EXTERNAL MODULE: ./src/components/components.module.ts
-var components_module = __webpack_require__(27);
+var components_module = __webpack_require__(25);
 
 // EXTERNAL MODULE: ./src/directives/directives.module.ts + 2 modules
-var directives_module = __webpack_require__(31);
+var directives_module = __webpack_require__(29);
 
 // EXTERNAL MODULE: ./src/pipes/pipes.module.ts + 2 modules
-var pipes_module = __webpack_require__(106);
+var pipes_module = __webpack_require__(105);
 
 // EXTERNAL MODULE: ./src/addon/messages/components/components.module.ts
-var components_components_module = __webpack_require__(2149);
+var components_components_module = __webpack_require__(2014);
 
 // CONCATENATED MODULE: ./src/addon/messages/pages/contacts/contacts.module.ts
-// (C) Copyright 2015 Moodle Pty Ltd.
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -218,52 +218,52 @@ var contacts_module_AddonMessagesContactsPageModule = /** @class */ (function ()
 
 //# sourceMappingURL=contacts.module.js.map
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/action-sheet/action-sheet-component.ngfactory.js
-var action_sheet_component_ngfactory = __webpack_require__(1513);
+var action_sheet_component_ngfactory = __webpack_require__(1391);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/alert/alert-component.ngfactory.js
-var alert_component_ngfactory = __webpack_require__(1514);
+var alert_component_ngfactory = __webpack_require__(1392);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app-root.ngfactory.js
-var app_root_ngfactory = __webpack_require__(1515);
+var app_root_ngfactory = __webpack_require__(1393);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/loading/loading-component.ngfactory.js
-var loading_component_ngfactory = __webpack_require__(1516);
+var loading_component_ngfactory = __webpack_require__(1394);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/modal/modal-component.ngfactory.js
-var modal_component_ngfactory = __webpack_require__(1517);
+var modal_component_ngfactory = __webpack_require__(1395);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/picker/picker-component.ngfactory.js + 1 modules
-var picker_component_ngfactory = __webpack_require__(1518);
+var picker_component_ngfactory = __webpack_require__(1396);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-component.ngfactory.js
-var popover_component_ngfactory = __webpack_require__(1519);
+var popover_component_ngfactory = __webpack_require__(1397);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/select/select-popover-component.ngfactory.js
-var select_popover_component_ngfactory = __webpack_require__(1520);
+var select_popover_component_ngfactory = __webpack_require__(1398);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toast/toast-component.ngfactory.js
-var toast_component_ngfactory = __webpack_require__(1521);
+var toast_component_ngfactory = __webpack_require__(1399);
 
 // EXTERNAL MODULE: ./src/components/context-menu/context-menu-popover.ngfactory.js
-var context_menu_popover_ngfactory = __webpack_require__(1522);
+var context_menu_popover_ngfactory = __webpack_require__(1402);
 
 // EXTERNAL MODULE: ./src/components/course-picker-menu/course-picker-menu-popover.ngfactory.js
-var course_picker_menu_popover_ngfactory = __webpack_require__(1523);
+var course_picker_menu_popover_ngfactory = __webpack_require__(1403);
 
 // EXTERNAL MODULE: ./src/components/recaptcha/recaptchamodal.ngfactory.js
-var recaptchamodal_ngfactory = __webpack_require__(1524);
+var recaptchamodal_ngfactory = __webpack_require__(1404);
 
 // EXTERNAL MODULE: ./src/components/bs-tooltip/bs-tooltip.ngfactory.js
-var bs_tooltip_ngfactory = __webpack_require__(1525);
+var bs_tooltip_ngfactory = __webpack_require__(1405);
 
 // EXTERNAL MODULE: ./src/components/icon/icon.ngfactory.js
-var icon_ngfactory = __webpack_require__(99);
+var icon_ngfactory = __webpack_require__(115);
 
 // EXTERNAL MODULE: ./src/components/icon/icon.ts
-var icon = __webpack_require__(88);
+var icon = __webpack_require__(99);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/config/config.js
-var config = __webpack_require__(7);
+var config = __webpack_require__(6);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item.ngfactory.js + 1 modules
 var item_ngfactory = __webpack_require__(30);
@@ -275,19 +275,19 @@ var item = __webpack_require__(20);
 var util_form = __webpack_require__(19);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-reorder.js + 1 modules
-var item_reorder = __webpack_require__(26);
+var item_reorder = __webpack_require__(28);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/item/item-content.js
-var item_content = __webpack_require__(33);
+var item_content = __webpack_require__(32);
 
 // EXTERNAL MODULE: ./src/components/user-avatar/user-avatar.ngfactory.js
-var user_avatar_ngfactory = __webpack_require__(216);
+var user_avatar_ngfactory = __webpack_require__(212);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/avatar/avatar.js
-var avatar = __webpack_require__(158);
+var avatar = __webpack_require__(186);
 
 // EXTERNAL MODULE: ./src/components/user-avatar/user-avatar.ts
-var user_avatar = __webpack_require__(184);
+var user_avatar = __webpack_require__(187);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/nav-controller.js
 var nav_controller = __webpack_require__(21);
@@ -298,74 +298,95 @@ var utils = __webpack_require__(2);
 // EXTERNAL MODULE: ./src/providers/app.ts
 var app = __webpack_require__(9);
 
-// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
-var common = __webpack_require__(8);
-
-// EXTERNAL MODULE: ./src/components/empty-box/empty-box.ngfactory.js
-var empty_box_ngfactory = __webpack_require__(124);
-
-// EXTERNAL MODULE: ./src/components/empty-box/empty-box.ts
-var empty_box = __webpack_require__(114);
-
-// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
-var translate_pipe = __webpack_require__(24);
-
-// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
-var translate_service = __webpack_require__(17);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
-var content_ngfactory = __webpack_require__(183);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
-var content = __webpack_require__(28);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
-var platform = __webpack_require__(16);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
-var dom_controller = __webpack_require__(34);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
-var app_app = __webpack_require__(35);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
-var keyboard = __webpack_require__(107);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
-var view_controller = __webpack_require__(39);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher.js
-var refresher = __webpack_require__(157);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/gestures/gesture-controller.js
-var gesture_controller = __webpack_require__(42);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.ngfactory.js
-var refresher_content_ngfactory = __webpack_require__(215);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.js
-var refresher_content = __webpack_require__(174);
-
-// EXTERNAL MODULE: ./src/components/loading/loading.ngfactory.js
-var loading_ngfactory = __webpack_require__(55);
-
-// EXTERNAL MODULE: ./src/components/loading/loading.ts
-var loading = __webpack_require__(50);
-
-// EXTERNAL MODULE: ./node_modules/ionic-angular/components/list/list.js + 1 modules
-var list = __webpack_require__(87);
-
-// EXTERNAL MODULE: ./src/components/infinite-loading/infinite-loading.ngfactory.js
-var infinite_loading_ngfactory = __webpack_require__(374);
-
-// EXTERNAL MODULE: ./src/components/infinite-loading/infinite-loading.ts
-var infinite_loading = __webpack_require__(275);
+// EXTERNAL MODULE: ./src/directives/format-text.ts
+var format_text = __webpack_require__(42);
 
 // EXTERNAL MODULE: ./src/providers/utils/dom.ts
 var dom = __webpack_require__(4);
 
+// EXTERNAL MODULE: ./src/providers/utils/text.ts
+var utils_text = __webpack_require__(10);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.service.js
+var translate_service = __webpack_require__(18);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/platform.js + 1 modules
+var platform = __webpack_require__(14);
+
+// EXTERNAL MODULE: ./src/providers/utils/url.ts
+var url = __webpack_require__(23);
+
+// EXTERNAL MODULE: ./src/providers/logger.ts
+var logger = __webpack_require__(5);
+
+// EXTERNAL MODULE: ./src/providers/filepool.ts
+var filepool = __webpack_require__(17);
+
+// EXTERNAL MODULE: ./src/core/contentlinks/providers/helper.ts
+var helper = __webpack_require__(16);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.js
+var content = __webpack_require__(26);
+
+// EXTERNAL MODULE: ./src/providers/utils/iframe.ts
+var iframe = __webpack_require__(37);
+
+// EXTERNAL MODULE: ./node_modules/@angular/common/esm5/common.js
+var common = __webpack_require__(7);
+
+// EXTERNAL MODULE: ./src/components/empty-box/empty-box.ngfactory.js
+var empty_box_ngfactory = __webpack_require__(119);
+
+// EXTERNAL MODULE: ./src/components/empty-box/empty-box.ts
+var empty_box = __webpack_require__(107);
+
+// EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.pipe.js
+var translate_pipe = __webpack_require__(27);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/content/content.ngfactory.js
+var content_ngfactory = __webpack_require__(185);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/dom-controller.js
+var dom_controller = __webpack_require__(31);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/app/app.js + 3 modules
+var app_app = __webpack_require__(33);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/platform/keyboard.js
+var keyboard = __webpack_require__(106);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/navigation/view-controller.js
+var view_controller = __webpack_require__(38);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher.js
+var refresher = __webpack_require__(147);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/gestures/gesture-controller.js
+var gesture_controller = __webpack_require__(40);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.ngfactory.js
+var refresher_content_ngfactory = __webpack_require__(200);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/refresher/refresher-content.js
+var refresher_content = __webpack_require__(161);
+
+// EXTERNAL MODULE: ./src/components/loading/loading.ngfactory.js
+var loading_ngfactory = __webpack_require__(51);
+
+// EXTERNAL MODULE: ./src/components/loading/loading.ts
+var loading = __webpack_require__(48);
+
+// EXTERNAL MODULE: ./node_modules/ionic-angular/components/list/list.js + 1 modules
+var list = __webpack_require__(89);
+
+// EXTERNAL MODULE: ./src/components/infinite-loading/infinite-loading.ngfactory.js
+var infinite_loading_ngfactory = __webpack_require__(354);
+
+// EXTERNAL MODULE: ./src/components/infinite-loading/infinite-loading.ts
+var infinite_loading = __webpack_require__(261);
+
 // EXTERNAL MODULE: ./src/addon/messages/components/confirmed-contacts/confirmed-contacts.ts
-var confirmed_contacts = __webpack_require__(2151);
+var confirmed_contacts = __webpack_require__(2016);
 
 // CONCATENATED MODULE: ./src/addon/messages/components/confirmed-contacts/confirmed-contacts.ngfactory.js
 /**
@@ -416,14 +437,21 @@ var confirmed_contacts = __webpack_require__(2151);
 
 
 
+
+
+
+
+
+
+
 var styles_AddonMessagesConfirmedContactsComponent = [];
 var RenderType_AddonMessagesConfirmedContactsComponent = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_AddonMessagesConfirmedContactsComponent, data: {} });
 
 function View_AddonMessagesConfirmedContactsComponent_2(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 1, "core-icon", [["item-end", ""], ["name", "fa-ban"]], null, null, null, icon_ngfactory["b" /* View_CoreIconComponent_0 */], icon_ngfactory["a" /* RenderType_CoreIconComponent */])), core["_30" /* ɵdid */](1, 704512, null, 0, icon["a" /* CoreIconComponent */], [core["t" /* ElementRef */], config["a" /* Config */]], { name: [0, "name"] }, null)], function (_ck, _v) { var currVal_0 = "fa-ban"; _ck(_v, 1, 0, currVal_0); }, null); }
-function View_AddonMessagesConfirmedContactsComponent_1(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 16, "a", [["class", "addon-messages-conversation-item item item-block"], ["ion-item", ""], ["text-wrap", ""]], [[8, "title", 0], [2, "core-split-item-selected", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+function View_AddonMessagesConfirmedContactsComponent_1(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 19, "a", [["class", "addon-messages-conversation-item item item-block"], ["ion-item", ""], ["text-wrap", ""]], [[8, "title", 0], [2, "core-split-item-selected", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.selectUser(_v.context.$implicit.id) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 2, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 3, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 4, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 0, 2, "ion-avatar", [["core-user-avatar", ""], ["item-start", ""]], null, null, null, user_avatar_ngfactory["b" /* View_CoreUserAvatarComponent_0 */], user_avatar_ngfactory["a" /* RenderType_CoreUserAvatarComponent */])), core["_30" /* ɵdid */](8, 16384, null, 0, avatar["a" /* Avatar */], [], null, null), core["_30" /* ɵdid */](9, 770048, null, 0, user_avatar["a" /* CoreUserAvatarComponent */], [nav_controller["a" /* NavController */], sites["a" /* CoreSitesProvider */], utils["a" /* CoreUtilsProvider */], app["a" /* CoreAppProvider */], events["a" /* CoreEventsProvider */], [2, split_view["a" /* CoreSplitViewComponent */]]], { user: [0, "user"], linkProfile: [1, "linkProfile"], checkOnline: [2, "checkOnline"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 4, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["\n                    ", "\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesConfirmedContactsComponent_2)), core["_30" /* ɵdid */](14, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "]))], function (_ck, _v) { var currVal_2 = _v.context.$implicit; var currVal_3 = false; var currVal_4 = _v.context.$implicit.showonlinestatus; _ck(_v, 9, 0, currVal_2, currVal_3, currVal_4); var currVal_6 = _v.context.$implicit.isblocked; _ck(_v, 14, 0, currVal_6); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _v.context.$implicit.fullname; var currVal_1 = (_v.context.$implicit.id == _co.selectedUserId); _ck(_v, 0, 0, currVal_0, currVal_1); var currVal_5 = _v.context.$implicit.fullname; _ck(_v, 12, 0, currVal_5); }); }
+    } return ad; }, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 2, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 3, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 4, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 0, 2, "ion-avatar", [["core-user-avatar", ""], ["item-start", ""]], null, null, null, user_avatar_ngfactory["b" /* View_CoreUserAvatarComponent_0 */], user_avatar_ngfactory["a" /* RenderType_CoreUserAvatarComponent */])), core["_30" /* ɵdid */](8, 16384, null, 0, avatar["a" /* Avatar */], [], null, null), core["_30" /* ɵdid */](9, 770048, null, 0, user_avatar["a" /* CoreUserAvatarComponent */], [nav_controller["a" /* NavController */], sites["a" /* CoreSitesProvider */], utils["a" /* CoreUtilsProvider */], app["a" /* CoreAppProvider */], events["a" /* CoreEventsProvider */]], { user: [0, "user"], linkProfile: [1, "linkProfile"], checkOnline: [2, "checkOnline"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 7, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_31" /* ɵeld */](13, 0, null, null, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](14, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform["a" /* Platform */], utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                    "])), (_l()(), core["_26" /* ɵand */](16777216, null, null, 1, null, View_AddonMessagesConfirmedContactsComponent_2)), core["_30" /* ɵdid */](17, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, null, ["\n                "])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "]))], function (_ck, _v) { var currVal_2 = _v.context.$implicit; var currVal_3 = false; var currVal_4 = _v.context.$implicit.showonlinestatus; _ck(_v, 9, 0, currVal_2, currVal_3, currVal_4); var currVal_5 = _v.context.$implicit.fullname; _ck(_v, 14, 0, currVal_5); var currVal_6 = _v.context.$implicit.isblocked; _ck(_v, 17, 0, currVal_6); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _v.context.$implicit.fullname; var currVal_1 = (_v.context.$implicit.id == _co.selectedUserId); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
 function View_AddonMessagesConfirmedContactsComponent_3(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "core-empty-box", [["icon", "person"]], null, null, null, empty_box_ngfactory["b" /* View_CoreEmptyBoxComponent_0 */], empty_box_ngfactory["a" /* RenderType_CoreEmptyBoxComponent */])), core["_30" /* ɵdid */](1, 49152, null, 0, empty_box["a" /* CoreEmptyBoxComponent */], [], { message: [0, "message"], icon: [1, "icon"] }, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 1, 0, core["_44" /* ɵnov */](_v, 2).transform("addon.messages.nocontactsgetstarted")); var currVal_1 = "person"; _ck(_v, 1, 0, currVal_0, currVal_1); }, null); }
 function View_AddonMessagesConfirmedContactsComponent_0(_l) { return core["_57" /* ɵvid */](0, [core["_52" /* ɵqud */](402653184, 1, { content: 0 }), (_l()(), core["_31" /* ɵeld */](1, 0, null, null, 27, "ion-content", [], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](2, 4374528, [[1, 4]], 0, content["a" /* Content */], [config["a" /* Config */], platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app_app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](4, 0, null, 2, 6, "ion-refresher", [], [[2, "refresher-active", null], [4, "top", null]], [[null, "ionRefresh"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("ionRefresh" === en)) {
         var pd_0 = (_co.refreshData($event) !== false);
@@ -437,7 +465,7 @@ var AddonMessagesConfirmedContactsComponentNgFactory = core["_27" /* ɵccf */]("
 
 //# sourceMappingURL=confirmed-contacts.ngfactory.js.map
 // EXTERNAL MODULE: ./src/addon/messages/components/contact-requests/contact-requests.ts
-var contact_requests = __webpack_require__(2152);
+var contact_requests = __webpack_require__(2017);
 
 // CONCATENATED MODULE: ./src/addon/messages/components/contact-requests/contact-requests.ngfactory.js
 /**
@@ -486,14 +514,21 @@ var contact_requests = __webpack_require__(2152);
 
 
 
+
+
+
+
+
+
+
 var styles_AddonMessagesContactRequestsComponent = [];
 var RenderType_AddonMessagesContactRequestsComponent = core["_29" /* ɵcrt */]({ encapsulation: 2, styles: styles_AddonMessagesContactRequestsComponent, data: {} });
 
 function View_AddonMessagesContactRequestsComponent_2(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "p", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](1, null, ["", ""])), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], null, function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 1, 0, core["_44" /* ɵnov */](_v, 2).transform("addon.messages.wouldliketocontactyou")); _ck(_v, 1, 0, currVal_0); }); }
-function View_AddonMessagesContactRequestsComponent_1(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 16, "a", [["class", "addon-messages-conversation-item item item-block"], ["ion-item", ""], ["text-wrap", ""]], [[8, "title", 0], [2, "core-split-item-selected", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+function View_AddonMessagesContactRequestsComponent_1(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 17, "a", [["class", "addon-messages-conversation-item item item-block"], ["ion-item", ""], ["text-wrap", ""]], [[8, "title", 0], [2, "core-split-item-selected", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.selectUser(_v.context.$implicit.id) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 2, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 3, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 4, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 0, 2, "ion-avatar", [["core-user-avatar", ""], ["item-start", ""]], null, null, null, user_avatar_ngfactory["b" /* View_CoreUserAvatarComponent_0 */], user_avatar_ngfactory["a" /* RenderType_CoreUserAvatarComponent */])), core["_30" /* ɵdid */](8, 16384, null, 0, avatar["a" /* Avatar */], [], null, null), core["_30" /* ɵdid */](9, 770048, null, 0, user_avatar["a" /* CoreUserAvatarComponent */], [nav_controller["a" /* NavController */], sites["a" /* CoreSitesProvider */], utils["a" /* CoreUtilsProvider */], app["a" /* CoreAppProvider */], events["a" /* CoreEventsProvider */], [2, split_view["a" /* CoreSplitViewComponent */]]], { user: [0, "user"], linkProfile: [1, "linkProfile"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 1, "h2", [], null, null, null, null, null)), (_l()(), core["_55" /* ɵted */](12, null, ["", ""])), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, 2, 1, null, View_AddonMessagesContactRequestsComponent_2)), core["_30" /* ɵdid */](15, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "]))], function (_ck, _v) { var currVal_2 = _v.context.$implicit; var currVal_3 = false; _ck(_v, 9, 0, currVal_2, currVal_3); var currVal_5 = (!_v.context.$implicit.iscontact && !_v.context.$implicit.confirmedOrDeclined); _ck(_v, 15, 0, currVal_5); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _v.context.$implicit.fullname; var currVal_1 = (_v.context.$implicit.id == _co.selectedUserId); _ck(_v, 0, 0, currVal_0, currVal_1); var currVal_4 = _v.context.$implicit.fullname; _ck(_v, 12, 0, currVal_4); }); }
+    } return ad; }, item_ngfactory["b" /* View_Item_0 */], item_ngfactory["a" /* RenderType_Item */])), core["_30" /* ɵdid */](1, 1097728, null, 3, item["a" /* Item */], [util_form["a" /* Form */], config["a" /* Config */], core["t" /* ElementRef */], core["V" /* Renderer */], [2, item_reorder["a" /* ItemReorder */]]], null, null), core["_52" /* ɵqud */](335544320, 2, { contentLabel: 0 }), core["_52" /* ɵqud */](603979776, 3, { _buttons: 1 }), core["_52" /* ɵqud */](603979776, 4, { _icons: 1 }), core["_30" /* ɵdid */](5, 16384, null, 0, item_content["a" /* ItemContent */], [], null, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](7, 0, null, 0, 2, "ion-avatar", [["core-user-avatar", ""], ["item-start", ""]], null, null, null, user_avatar_ngfactory["b" /* View_CoreUserAvatarComponent_0 */], user_avatar_ngfactory["a" /* RenderType_CoreUserAvatarComponent */])), core["_30" /* ɵdid */](8, 16384, null, 0, avatar["a" /* Avatar */], [], null, null), core["_30" /* ɵdid */](9, 770048, null, 0, user_avatar["a" /* CoreUserAvatarComponent */], [nav_controller["a" /* NavController */], sites["a" /* CoreSitesProvider */], utils["a" /* CoreUtilsProvider */], app["a" /* CoreAppProvider */], events["a" /* CoreEventsProvider */]], { user: [0, "user"], linkProfile: [1, "linkProfile"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_31" /* ɵeld */](11, 0, null, 2, 2, "h2", [], null, null, null, null, null)), (_l()(), core["_31" /* ɵeld */](12, 0, null, null, 1, "core-format-text", [], null, null, null, null, null)), core["_30" /* ɵdid */](13, 540672, null, 0, format_text["a" /* CoreFormatTextDirective */], [core["t" /* ElementRef */], sites["a" /* CoreSitesProvider */], dom["a" /* CoreDomUtilsProvider */], utils_text["a" /* CoreTextUtilsProvider */], translate_service["a" /* TranslateService */], platform["a" /* Platform */], utils["a" /* CoreUtilsProvider */], url["a" /* CoreUrlUtilsProvider */], logger["a" /* CoreLoggerProvider */], filepool["a" /* CoreFilepoolProvider */], app["a" /* CoreAppProvider */], helper["a" /* CoreContentLinksHelperProvider */], [2, nav_controller["a" /* NavController */]], [2, content["a" /* Content */]], [2, split_view["a" /* CoreSplitViewComponent */]], iframe["a" /* CoreIframeUtilsProvider */], events["a" /* CoreEventsProvider */]], { text: [0, "text"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n                "])), (_l()(), core["_26" /* ɵand */](16777216, null, 2, 1, null, View_AddonMessagesContactRequestsComponent_2)), core["_30" /* ɵdid */](16, 16384, null, 0, common["k" /* NgIf */], [core["_11" /* ViewContainerRef */], core["_6" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), core["_55" /* ɵted */](-1, 2, ["\n            "]))], function (_ck, _v) { var currVal_2 = _v.context.$implicit; var currVal_3 = false; _ck(_v, 9, 0, currVal_2, currVal_3); var currVal_4 = _v.context.$implicit.fullname; _ck(_v, 13, 0, currVal_4); var currVal_5 = (!_v.context.$implicit.iscontact && !_v.context.$implicit.confirmedOrDeclined); _ck(_v, 16, 0, currVal_5); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = _v.context.$implicit.fullname; var currVal_1 = (_v.context.$implicit.id == _co.selectedUserId); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
 function View_AddonMessagesContactRequestsComponent_3(_l) { return core["_57" /* ɵvid */](0, [(_l()(), core["_31" /* ɵeld */](0, 0, null, null, 2, "core-empty-box", [["icon", "person"]], null, null, null, empty_box_ngfactory["b" /* View_CoreEmptyBoxComponent_0 */], empty_box_ngfactory["a" /* RenderType_CoreEmptyBoxComponent */])), core["_30" /* ɵdid */](1, 49152, null, 0, empty_box["a" /* CoreEmptyBoxComponent */], [], { message: [0, "message"], icon: [1, "icon"] }, null), core["_47" /* ɵpid */](131072, translate_pipe["a" /* TranslatePipe */], [translate_service["a" /* TranslateService */], core["j" /* ChangeDetectorRef */]])], function (_ck, _v) { var currVal_0 = core["_56" /* ɵunv */](_v, 1, 0, core["_44" /* ɵnov */](_v, 2).transform("addon.messages.nocontactrequests")); var currVal_1 = "person"; _ck(_v, 1, 0, currVal_0, currVal_1); }, null); }
 function View_AddonMessagesContactRequestsComponent_0(_l) { return core["_57" /* ɵvid */](0, [core["_52" /* ɵqud */](402653184, 1, { content: 0 }), (_l()(), core["_31" /* ɵeld */](1, 0, null, null, 27, "ion-content", [], [[2, "statusbar-padding", null], [2, "has-refresher", null]], null, null, content_ngfactory["b" /* View_Content_0 */], content_ngfactory["a" /* RenderType_Content */])), core["_30" /* ɵdid */](2, 4374528, [[1, 4]], 0, content["a" /* Content */], [config["a" /* Config */], platform["a" /* Platform */], dom_controller["a" /* DomController */], core["t" /* ElementRef */], core["V" /* Renderer */], app_app["a" /* App */], keyboard["a" /* Keyboard */], core["M" /* NgZone */], [2, view_controller["a" /* ViewController */]], [2, nav_controller["a" /* NavController */]]], null, null), (_l()(), core["_55" /* ɵted */](-1, 1, ["\n    "])), (_l()(), core["_31" /* ɵeld */](4, 0, null, 2, 6, "ion-refresher", [], [[2, "refresher-active", null], [4, "top", null]], [[null, "ionRefresh"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("ionRefresh" === en)) {
         var pd_0 = (_co.refreshData($event) !== false);
@@ -507,61 +542,61 @@ var AddonMessagesContactRequestsComponentNgFactory = core["_27" /* ɵccf */]("ad
 
 //# sourceMappingURL=contact-requests.ngfactory.js.map
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-header.js
-var toolbar_header = __webpack_require__(372);
+var toolbar_header = __webpack_require__(455);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.ngfactory.js
-var navbar_ngfactory = __webpack_require__(719);
+var navbar_ngfactory = __webpack_require__(1400);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/navbar.js
-var navbar = __webpack_require__(214);
+var navbar = __webpack_require__(211);
 
 // EXTERNAL MODULE: ./src/directives/back-button.ts
-var back_button = __webpack_require__(477);
+var back_button = __webpack_require__(687);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.ngfactory.js
-var toolbar_title_ngfactory = __webpack_require__(720);
+var toolbar_title_ngfactory = __webpack_require__(1401);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-title.js
-var toolbar_title = __webpack_require__(314);
+var toolbar_title = __webpack_require__(352);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar.js
-var toolbar = __webpack_require__(248);
+var toolbar = __webpack_require__(259);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/toolbar/toolbar-item.js
-var toolbar_item = __webpack_require__(373);
+var toolbar_item = __webpack_require__(456);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.ngfactory.js
-var button_ngfactory = __webpack_require__(46);
+var button_ngfactory = __webpack_require__(45);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/button/button.js
 var button_button = __webpack_require__(41);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/icon/icon.js
-var icon_icon = __webpack_require__(47);
+var icon_icon = __webpack_require__(46);
 
 // EXTERNAL MODULE: ./src/components/context-menu/context-menu.ngfactory.js
-var context_menu_ngfactory = __webpack_require__(91);
+var context_menu_ngfactory = __webpack_require__(83);
 
 // EXTERNAL MODULE: ./src/components/context-menu/context-menu.ts
-var context_menu = __webpack_require__(77);
+var context_menu = __webpack_require__(73);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/components/popover/popover-controller.js
-var popover_controller = __webpack_require__(69);
+var popover_controller = __webpack_require__(65);
 
 // EXTERNAL MODULE: ./src/components/tabs/tab.ts
-var tab = __webpack_require__(75);
+var tab = __webpack_require__(72);
 
 // EXTERNAL MODULE: ./src/components/split-view/split-view.ngfactory.js
-var split_view_ngfactory = __webpack_require__(478);
+var split_view_ngfactory = __webpack_require__(457);
 
 // EXTERNAL MODULE: ./src/core/fileuploader/providers/fileuploader.ts
-var fileuploader = __webpack_require__(72);
+var fileuploader = __webpack_require__(67);
 
 // EXTERNAL MODULE: ./src/components/tabs/tabs.ngfactory.js
-var tabs_ngfactory = __webpack_require__(726);
+var tabs_ngfactory = __webpack_require__(460);
 
 // EXTERNAL MODULE: ./src/components/tabs/tab.ngfactory.js
-var tab_ngfactory = __webpack_require__(727);
+var tab_ngfactory = __webpack_require__(461);
 
 // CONCATENATED MODULE: ./src/addon/messages/pages/contacts/contacts.ngfactory.js
 /**
@@ -643,25 +678,25 @@ var AddonMessagesContactsPageNgFactory = core["_27" /* ɵccf */]("page-addon-mes
 var esm5_forms = __webpack_require__(22);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.loader.js
-var translate_loader = __webpack_require__(368);
+var translate_loader = __webpack_require__(348);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.compiler.js
-var translate_compiler = __webpack_require__(369);
+var translate_compiler = __webpack_require__(349);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.parser.js
-var translate_parser = __webpack_require__(371);
+var translate_parser = __webpack_require__(351);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/missing-translation-handler.js
-var missing_translation_handler = __webpack_require__(370);
+var missing_translation_handler = __webpack_require__(350);
 
 // EXTERNAL MODULE: ./node_modules/@ngx-translate/core/src/translate.store.js
-var translate_store = __webpack_require__(476);
+var translate_store = __webpack_require__(454);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/module.js
-var ionic_angular_module = __webpack_require__(718);
+var ionic_angular_module = __webpack_require__(686);
 
 // EXTERNAL MODULE: ./node_modules/ionic-angular/util/module-loader.js
-var module_loader = __webpack_require__(273);
+var module_loader = __webpack_require__(260);
 
 // CONCATENATED MODULE: ./src/addon/messages/pages/contacts/contacts.module.ngfactory.js
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessagesContactsPageModuleNgFactory", function() { return AddonMessagesContactsPageModuleNgFactory; });
@@ -703,29 +738,29 @@ var module_loader = __webpack_require__(273);
 
 
 
-var AddonMessagesContactsPageModuleNgFactory = core["_28" /* ɵcmf */](contacts_module_AddonMessagesContactsPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], context_menu_popover_ngfactory["a" /* CoreContextMenuPopoverComponentNgFactory */], course_picker_menu_popover_ngfactory["a" /* CoreCoursePickerMenuPopoverComponentNgFactory */], recaptchamodal_ngfactory["a" /* CoreRecaptchaModalComponentNgFactory */], bs_tooltip_ngfactory["a" /* CoreBSTooltipComponentNgFactory */], AddonMessagesContactsPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["w" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, pipes_module["a" /* CorePipesModule */], pipes_module["a" /* CorePipesModule */], []), core["_41" /* ɵmpd */](512, components_module["a" /* CoreComponentsModule */], components_module["a" /* CoreComponentsModule */], []), core["_41" /* ɵmpd */](512, components_components_module["a" /* AddonMessagesComponentsModule */], components_components_module["a" /* AddonMessagesComponentsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, contacts_module_AddonMessagesContactsPageModule, contacts_module_AddonMessagesContactsPageModule, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], contacts_AddonMessagesContactsPage, [])]); });
+var AddonMessagesContactsPageModuleNgFactory = core["_28" /* ɵcmf */](contacts_module_AddonMessagesContactsPageModule, [], function (_l) { return core["_40" /* ɵmod */]([core["_41" /* ɵmpd */](512, core["o" /* ComponentFactoryResolver */], core["_21" /* ɵCodegenComponentFactoryResolver */], [[8, [action_sheet_component_ngfactory["a" /* ActionSheetCmpNgFactory */], alert_component_ngfactory["a" /* AlertCmpNgFactory */], app_root_ngfactory["a" /* IonicAppNgFactory */], loading_component_ngfactory["a" /* LoadingCmpNgFactory */], modal_component_ngfactory["a" /* ModalCmpNgFactory */], picker_component_ngfactory["a" /* PickerCmpNgFactory */], popover_component_ngfactory["a" /* PopoverCmpNgFactory */], select_popover_component_ngfactory["a" /* SelectPopoverNgFactory */], toast_component_ngfactory["a" /* ToastCmpNgFactory */], context_menu_popover_ngfactory["a" /* CoreContextMenuPopoverComponentNgFactory */], course_picker_menu_popover_ngfactory["a" /* CoreCoursePickerMenuPopoverComponentNgFactory */], recaptchamodal_ngfactory["a" /* CoreRecaptchaModalComponentNgFactory */], bs_tooltip_ngfactory["a" /* CoreBSTooltipComponentNgFactory */], AddonMessagesContactsPageNgFactory]], [3, core["o" /* ComponentFactoryResolver */]], core["K" /* NgModuleRef */]]), core["_41" /* ɵmpd */](4608, common["m" /* NgLocalization */], common["l" /* NgLocaleLocalization */], [core["G" /* LOCALE_ID */], [2, common["v" /* ɵa */]]]), core["_41" /* ɵmpd */](4608, esm5_forms["x" /* ɵi */], esm5_forms["x" /* ɵi */], []), core["_41" /* ɵmpd */](4608, esm5_forms["d" /* FormBuilder */], esm5_forms["d" /* FormBuilder */], []), core["_41" /* ɵmpd */](4608, translate_loader["b" /* TranslateLoader */], translate_loader["a" /* TranslateFakeLoader */], []), core["_41" /* ɵmpd */](4608, translate_compiler["a" /* TranslateCompiler */], translate_compiler["b" /* TranslateFakeCompiler */], []), core["_41" /* ɵmpd */](4608, translate_parser["b" /* TranslateParser */], translate_parser["a" /* TranslateDefaultParser */], []), core["_41" /* ɵmpd */](4608, missing_translation_handler["b" /* MissingTranslationHandler */], missing_translation_handler["a" /* FakeMissingTranslationHandler */], []), core["_41" /* ɵmpd */](4608, translate_service["a" /* TranslateService */], translate_service["a" /* TranslateService */], [translate_store["a" /* TranslateStore */], translate_loader["b" /* TranslateLoader */], translate_compiler["a" /* TranslateCompiler */], translate_parser["b" /* TranslateParser */], missing_translation_handler["b" /* MissingTranslationHandler */], translate_service["b" /* USE_DEFAULT_LANG */], translate_service["c" /* USE_STORE */]]), core["_41" /* ɵmpd */](512, common["b" /* CommonModule */], common["b" /* CommonModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["v" /* ɵba */], esm5_forms["v" /* ɵba */], []), core["_41" /* ɵmpd */](512, esm5_forms["i" /* FormsModule */], esm5_forms["i" /* FormsModule */], []), core["_41" /* ɵmpd */](512, esm5_forms["s" /* ReactiveFormsModule */], esm5_forms["s" /* ReactiveFormsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["a" /* IonicModule */], ionic_angular_module["a" /* IonicModule */], []), core["_41" /* ɵmpd */](512, _ngx_translate_core["b" /* TranslateModule */], _ngx_translate_core["b" /* TranslateModule */], []), core["_41" /* ɵmpd */](512, directives_module["a" /* CoreDirectivesModule */], directives_module["a" /* CoreDirectivesModule */], []), core["_41" /* ɵmpd */](512, pipes_module["a" /* CorePipesModule */], pipes_module["a" /* CorePipesModule */], []), core["_41" /* ɵmpd */](512, components_module["a" /* CoreComponentsModule */], components_module["a" /* CoreComponentsModule */], []), core["_41" /* ɵmpd */](512, components_components_module["a" /* AddonMessagesComponentsModule */], components_components_module["a" /* AddonMessagesComponentsModule */], []), core["_41" /* ɵmpd */](512, ionic_angular_module["b" /* IonicPageModule */], ionic_angular_module["b" /* IonicPageModule */], []), core["_41" /* ɵmpd */](512, contacts_module_AddonMessagesContactsPageModule, contacts_module_AddonMessagesContactsPageModule, []), core["_41" /* ɵmpd */](256, translate_service["c" /* USE_STORE */], undefined, []), core["_41" /* ɵmpd */](256, translate_service["b" /* USE_DEFAULT_LANG */], undefined, []), core["_41" /* ɵmpd */](256, module_loader["a" /* LAZY_LOADED_TOKEN */], contacts_AddonMessagesContactsPage, [])]); });
 
 //# sourceMappingURL=contacts.module.ngfactory.js.map
 
 /***/ }),
 
-/***/ 2149:
+/***/ 2014:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesComponentsModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__ = __webpack_require__(2150);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_confirmed_contacts_confirmed_contacts__ = __webpack_require__(2151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_contact_requests_contact_requests__ = __webpack_require__(2152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_contacts_contacts__ = __webpack_require__(2153);
-// (C) Copyright 2015 Moodle Pty Ltd.
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_discussions_discussions__ = __webpack_require__(2015);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_confirmed_contacts_confirmed_contacts__ = __webpack_require__(2016);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_contact_requests_contact_requests__ = __webpack_require__(2017);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_contacts_contacts__ = __webpack_require__(2018);
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -790,22 +825,22 @@ var AddonMessagesComponentsModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2150:
+/***/ 2015:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesDiscussionsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_sites__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_messages__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_messages__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_utils__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_pushnotifications_providers_delegate__ = __webpack_require__(142);
-// (C) Copyright 2015 Moodle Pty Ltd.
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_pushnotifications_providers_delegate__ = __webpack_require__(133);
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -930,9 +965,9 @@ var AddonMessagesDiscussionsComponent = /** @class */ (function () {
     /**
      * Refresh the data.
      *
-     * @param refresher Refresher.
-     * @param refreshUnreadCounts Whteher to refresh unread counts.
-     * @return Promise resolved when done.
+     * @param {any} [refresher] Refresher.
+     * @param {boolean} [refreshUnreadCounts=true] Whteher to refresh unread counts.
+     * @return {Promise<any>} Promise resolved when done.
      */
     AddonMessagesDiscussionsComponent.prototype.refreshData = function (refresher, refreshUnreadCounts) {
         var _this = this;
@@ -953,7 +988,7 @@ var AddonMessagesDiscussionsComponent = /** @class */ (function () {
     /**
      * Fetch discussions.
      *
-     * @return Promise resolved when done.
+     * @return {Promise<any>} Promise resolved when done.
      */
     AddonMessagesDiscussionsComponent.prototype.fetchData = function () {
         var _this = this;
@@ -993,8 +1028,8 @@ var AddonMessagesDiscussionsComponent = /** @class */ (function () {
     /**
      * Search messages cotaining text.
      *
-     * @param query Text to search for.
-     * @return Resolved when done.
+     * @param  {string}       query Text to search for.
+     * @return {Promise<any>}       Resolved when done.
      */
     AddonMessagesDiscussionsComponent.prototype.searchMessage = function (query) {
         var _this = this;
@@ -1013,9 +1048,9 @@ var AddonMessagesDiscussionsComponent = /** @class */ (function () {
     /**
      * Navigate to a particular discussion.
      *
-     * @param discussionUserId Discussion Id to load.
-     * @param messageId Message to scroll after loading the discussion. Used when searching.
-     * @param onlyWithSplitView Only go to Discussion if split view is on.
+     * @param {number} discussionUserId Discussion Id to load.
+     * @param {number} [messageId]      Message to scroll after loading the discussion. Used when searching.
+     * @param {boolean} [onlyWithSplitView=false]  Only go to Discussion if split view is on.
      */
     AddonMessagesDiscussionsComponent.prototype.gotoDiscussion = function (discussionUserId, messageId, onlyWithSplitView) {
         if (onlyWithSplitView === void 0) { onlyWithSplitView = false; }
@@ -1056,18 +1091,18 @@ var AddonMessagesDiscussionsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2151:
+/***/ 2016:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesConfirmedContactsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(4);
-// (C) Copyright 2015 Moodle Pty Ltd.
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -1146,8 +1181,8 @@ var AddonMessagesConfirmedContactsComponent = /** @class */ (function () {
     /**
      * Fetch contacts.
      *
-     * @param refresh True if we are refreshing contacts, false if we are loading more.
-     * @return Promise resolved when done.
+     * @param {boolean} [refresh=false] True if we are refreshing contacts, false if we are loading more.
+     * @return {Promise<any>} Promise resolved when done.
      */
     AddonMessagesConfirmedContactsComponent.prototype.fetchData = function (refresh) {
         var _this = this;
@@ -1177,8 +1212,8 @@ var AddonMessagesConfirmedContactsComponent = /** @class */ (function () {
     /**
      * Refresh contacts.
      *
-     * @param refresher Refresher.
-     * @return Promise resolved when done.
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
      */
     AddonMessagesConfirmedContactsComponent.prototype.refreshData = function (refresher) {
         // No need to invalidate contacts, we always try to get the latest.
@@ -1189,8 +1224,8 @@ var AddonMessagesConfirmedContactsComponent = /** @class */ (function () {
     /**
      * Load more contacts.
      *
-     * @param infiniteComplete Infinite scroll complete function. Only used from core-infinite-loading.
-     * @return Resolved when done.
+     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     * @return {Promise<any>} Resolved when done.
      */
     AddonMessagesConfirmedContactsComponent.prototype.loadMore = function (infiniteComplete) {
         return this.fetchData().finally(function () {
@@ -1200,8 +1235,8 @@ var AddonMessagesConfirmedContactsComponent = /** @class */ (function () {
     /**
      * Notify that a contact has been selected.
      *
-     * @param userId User id.
-     * @param onInit Whether the contact is selected on initial load.
+     * @param {number} userId User id.
+     * @param {boolean} [onInit=false] Whether the contact is selected on initial load.
      */
     AddonMessagesConfirmedContactsComponent.prototype.selectUser = function (userId, onInit) {
         if (onInit === void 0) { onInit = false; }
@@ -1237,18 +1272,18 @@ var AddonMessagesConfirmedContactsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2152:
+/***/ 2017:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesContactRequestsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_events__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(4);
-// (C) Copyright 2015 Moodle Pty Ltd.
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -1317,8 +1352,8 @@ var AddonMessagesContactRequestsComponent = /** @class */ (function () {
     /**
      * Fetch contact requests.
      *
-     * @param refresh True if we are refreshing contact requests, false if we are loading more.
-     * @return Promise resolved when done.
+     * @param {boolean} [refresh=false] True if we are refreshing contact requests, false if we are loading more.
+     * @return {Promise<any>} Promise resolved when done.
      */
     AddonMessagesContactRequestsComponent.prototype.fetchData = function (refresh) {
         var _this = this;
@@ -1348,8 +1383,8 @@ var AddonMessagesContactRequestsComponent = /** @class */ (function () {
     /**
      * Refresh contact requests.
      *
-     * @param refresher Refresher.
-     * @return Promise resolved when done.
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
      */
     AddonMessagesContactRequestsComponent.prototype.refreshData = function (refresher) {
         // Refresh the number of contacts requests to update badges.
@@ -1362,8 +1397,8 @@ var AddonMessagesContactRequestsComponent = /** @class */ (function () {
     /**
      * Load more contact requests.
      *
-     * @param infiniteComplete Infinite scroll complete function. Only used from core-infinite-loading.
-     * @return Resolved when done.
+     * @param {any} [infiniteComplete] Infinite scroll complete function. Only used from core-infinite-loading.
+     * @return {Promise<any>} Resolved when done.
      */
     AddonMessagesContactRequestsComponent.prototype.loadMore = function (infiniteComplete) {
         return this.fetchData().finally(function () {
@@ -1373,8 +1408,8 @@ var AddonMessagesContactRequestsComponent = /** @class */ (function () {
     /**
      * Notify that a contact has been selected.
      *
-     * @param userId User id.
-     * @param onInit Whether the contact is selected on initial load.
+     * @param {number} userId User id.
+     * @param {boolean} [onInit=false] Whether the contact is selected on initial load.
      */
     AddonMessagesContactRequestsComponent.prototype.selectUser = function (userId, onInit) {
         if (onInit === void 0) { onInit = false; }
@@ -1410,20 +1445,20 @@ var AddonMessagesContactRequestsComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 2153:
+/***/ 2018:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessagesContactsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(159);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_messages__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_app__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_events__ = __webpack_require__(10);
-// (C) Copyright 2015 Moodle Pty Ltd.
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_events__ = __webpack_require__(11);
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -1470,9 +1505,6 @@ var AddonMessagesContactsComponent = /** @class */ (function () {
         this.loadingMessage = '';
         this.hasContacts = false;
         this.contacts = {
-            online: [],
-            offline: [],
-            strangers: [],
             search: []
         };
         this.searchString = '';
@@ -1519,8 +1551,8 @@ var AddonMessagesContactsComponent = /** @class */ (function () {
     /**
      * Refresh the data.
      *
-     * @param refresher Refresher.
-     * @return Promise resolved when done.
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
      */
     AddonMessagesContactsComponent.prototype.refreshData = function (refresher) {
         var _this = this;
@@ -1542,7 +1574,7 @@ var AddonMessagesContactsComponent = /** @class */ (function () {
     /**
      * Fetch contacts.
      *
-     * @return Promise resolved when done.
+     * @return {Promise<any>} Promise resolved when done.
      */
     AddonMessagesContactsComponent.prototype.fetchData = function () {
         var _this = this;
@@ -1563,8 +1595,8 @@ var AddonMessagesContactsComponent = /** @class */ (function () {
     };
     /**
      * Sort user list by fullname
-     * @param list List to sort.
-     * @return Sorted list.
+     * @param  {any[]} list List to sort.
+     * @return {any[]}      Sorted list.
      */
     AddonMessagesContactsComponent.prototype.sortUsers = function (list) {
         return list.sort(function (a, b) {
@@ -1589,8 +1621,8 @@ var AddonMessagesContactsComponent = /** @class */ (function () {
     /**
      * Search users from the UI.
      *
-     * @param query Text to search for.
-     * @return Resolved when done.
+     * @param  {string}       query Text to search for.
+     * @return {Promise<any>}       Resolved when done.
      */
     AddonMessagesContactsComponent.prototype.search = function (query) {
         var _this = this;
@@ -1604,8 +1636,8 @@ var AddonMessagesContactsComponent = /** @class */ (function () {
     /**
      * Perform the search of users.
      *
-     * @param query Text to search for.
-     * @return Resolved when done.
+     * @param  {string}       query Text to search for.
+     * @return {Promise<any>}       Resolved when done.
      */
     AddonMessagesContactsComponent.prototype.performSearch = function (query) {
         var _this = this;
@@ -1613,7 +1645,7 @@ var AddonMessagesContactsComponent = /** @class */ (function () {
             _this.hasContacts = result.length > 0;
             _this.searchString = query;
             _this.contactTypes = ['search'];
-            _this.contacts.search = _this.sortUsers(result);
+            _this.contacts['search'] = _this.sortUsers(result);
         }).catch(function (error) {
             _this.domUtils.showErrorModalDefault(error, 'addon.messages.errorwhileretrievingcontacts', true);
         });
@@ -1621,8 +1653,8 @@ var AddonMessagesContactsComponent = /** @class */ (function () {
     /**
      * Navigate to a particular discussion.
      *
-     * @param discussionUserId Discussion Id to load.
-     * @param onlyWithSplitView Only go to Discussion if split view is on.
+     * @param {number} discussionUserId Discussion Id to load.
+     * @param {boolean} [onlyWithSplitView=false]  Only go to Discussion if split view is on.
      */
     AddonMessagesContactsComponent.prototype.gotoDiscussion = function (discussionUserId, onlyWithSplitView) {
         if (onlyWithSplitView === void 0) { onlyWithSplitView = false; }
