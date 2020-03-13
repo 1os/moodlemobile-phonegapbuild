@@ -3,9 +3,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id="com.learnersplatform.mobile"
-        versionCode = "38000"
-        android-versionCode="38000"
-        version   = "3.8.0">
+        versionCode = "38100"
+        android-versionCode="38100"
+        version   = "3.8.1">
     <name>LPMobile</name>
 
     <description>
